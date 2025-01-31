@@ -1,0 +1,113 @@
+@media (max-width: 480px) {
+    .hero__intro {
+        font-size: 1.5em;
+        /* Adjust font size for mobile */
+    }
+
+    .btn {
+        width: 100%;
+        /* Make buttons full width */
+        margin: 10px 0;
+        /* Space between buttons */
+    }
+
+    .skills__grid {
+        grid-template-columns: 1fr;
+        /* Single column for very small screens */
+    }
+
+
+    .navbar__menu {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        display: none;
+    }
+
+    .navbar__menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+
+    .btn--download {
+        background: #27ae60;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        width: 150px;
+    }
+
+    .hero{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .hero__intro {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .hero__name {
+        color: #27ae60;
+        font-weight: bold;
+        font-size: 35px;
+        transition: color 0.3s ease;
+    }
+
+    .hero__typing {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+
+    .hero__actions {
+        display: flex;
+        gap: 13px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .hero__image {
+        flex: 1;
+        margin-top: 60px;
+        margin-right: 100px;
+    }
+
+    #skills {
+        margin-top: 40px;
+    }
+
+    .skill-card {
+        margin: 10px;
+        
+    }
+    
+    .section-title {
+        margin-bottom: 50px;
+    }
+
+    .skills__grid div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+
+    .skill-card img {
+        width: 140px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        padding-top: 0px;
+    }
+
+    .contact__container {
+       margin-top: 40px;
+    }
+
+}
