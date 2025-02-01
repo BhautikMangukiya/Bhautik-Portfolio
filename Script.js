@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function setupTypingEffect() {
       const textElement = document.querySelector(".hero__typing");
       const text =
-          "a passionate web developer skilled in HTML,\nCSS, and JavaScript, dedicated to building \nclean and efficient web applications.";
+          "a passionate web developer skilled in HTML,CSS, and JavaScript, dedicated to building clean and efficient web applications.";
       let index = 0;
       const cursor = document.createElement("span");
       cursor.classList.add("cursor");
