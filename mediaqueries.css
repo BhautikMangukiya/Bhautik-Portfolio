@@ -45,6 +45,10 @@
        flex-direction: column;
     }
 
+    .hero__content{
+        margin-right: 40px;
+    }
+
     .hero__intro {
         font-size: 30px;
         font-weight: 600;
@@ -74,40 +78,58 @@
     .hero__image {
         flex: 1;
         margin-top: 60px;
-        margin-right: 100px;
+        margin-right: 100px;  
+    }
+
+    .hero__image img{
+        height: 220px;
     }
 
     #skills {
         margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .skill-card {
-        margin: 10px;
-        
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .skills__grid{
+        margin: 1px;
     }
     
     .section-title {
         margin-bottom: 50px;
     }
 
-    .skills__grid div{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 35px;
+    .skills .section-title {
+        margin-bottom: 60px;
     }
 
     .skill-card img {
         width: 140px;
         height: auto;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
     }
 
     .contact {
         padding-top: 0px;
     }
 
-    .contact__container {
-       margin-top: 40px;
+    .contact .section-title{
+        font-size: 25px;
     }
+    .contact__container {
+       margin-top: 30px;
+       width: 105%;
+       font-size: 14px;
+       padding-left: 22px;
+       
+    }
+    .contact__icon{
+        margin-right: 10px;
+    }
+
 
 }
